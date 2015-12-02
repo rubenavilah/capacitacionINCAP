@@ -1,0 +1,35 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Formularios</title>
+</head>
+
+<body>
+<h1>Hola por favor completa el formulario</h1>
+	<form action="enviar.php" method="post"><!-- Met get / post -->
+  	<div>Tu nombre:</div>
+  	<input type="text" name="name" id="name">
+    <div>Tu Apellido</div>
+    <input type="text" name"lastname" id="lastname">
+    <div>Cual es tu sexo?:</div>
+    <input type="radio" name="sex" value="Hombre"><span>Hombre</span>
+    <br>
+    <input type="radio" name="sex" value="Mujer" checked><span>Mujer</span>
+    <br>
+    <div>Seleccione una marca</div>
+    <select name="Marcas">
+    	<option value="Apple">Apple</option>
+      <option value="Microsoft">Microsoft</option>
+      <option value="Google">Google</option>
+      <option value="Samsung">Samsung</option>
+      <option value="Huawei">Huawei</option>
+    </select>
+    <br>
+    <div>Déjenos su mensaje:</div>
+    <textarea name="mensaje" rows="10" cols="40"></textarea>
+    <br>
+    <input type="submit" value="Enviar">
+  </form>
+</body>
+</html>
