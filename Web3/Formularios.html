@@ -8,15 +8,70 @@
 <body>
 <h1>Hola por favor completa el formulario</h1>
 	<form action="enviar.php" method="post"><!-- Met get / post -->
+  
+  	<!-- Caja de Texto / Nombre -->
   	<div>Tu nombre:</div>
-  	<input type="text" name="name" id="name">
+  	<input type="text" name="name" id="name" placeholder="Nombre completo" required autofocus>
+    <br>
+    
+    <!-- Apellido -->
     <div>Tu Apellido</div>
-    <input type="text" name"lastname" id="lastname">
+    <input type="text" name"lastname" id="lastname" placeholder="Apellido completo">
+    <br>
+    
+    <!-- Email -->
+    <div>Email:</div>
+    <input type="email" name="email" id="email" required>
+    <br>
+    
+    <!-- Telefono -->
+    <div>Telefono:</div>
+    <input type="tel" name="tel" id="tel">
+    
+    <!-- Seleccion Multiple -->
+    <div>Selecciona comidas</div>
+    <input type="checkbox" name="food" value="Pizza">Pizza<br>
+    <input type="checkbox" name="food" value="Lasagna">Lasagna<br>
+    <input type="checkbox" name="food" value="Pollo">Pollo<br>
+    <input type="checkbox" name="food" value="Hamburguesa">Hamburguesa<br>
+    
+    <!-- Password -->
+    <div>Password:</div>
+    <input type="password" name"pswd" id="pwsd">
+    
+    
+    <!-- Direccion Web -->
+    <div>Tu web</div>
+    <input type="url" name="url" id="url" required>
+    
+    <!-- Seleccionar un numero -->
+    <div>Por favor introduce tu edad:</div>
+    <input type="number" min="1" max="99" step="1" value="18">
+    
+    <!-- Seleccione un rango de calificación -->
+    <div>Seleccione un rango de calificacion</div>
+    <input type="range" min="10" max="100" step="10" value="10">
+    
+    <!-- Calendario date/ datetime-local / month / week / time-->
+    <div>Seleccione su fecha de nacimiento</div>
+    <input type="date">
+    
+    <!-- Seleccion de color -->
+    <div>Seleccione un color de camiseta</div>
+    <input type="color">
+    
+    <!-- Caja de Busqueda -->
+    <div>Busque lo que necesite</div>
+    <input type="search">
+    
+    <!-- Sexo / Seleccion Unica -->
     <div>Cual es tu sexo?:</div>
     <input type="radio" name="sex" value="Hombre"><span>Hombre</span>
     <br>
     <input type="radio" name="sex" value="Mujer" checked><span>Mujer</span>
     <br>
+    
+    <!-- Marca / Dropdown -->
     <div>Seleccione una marca</div>
     <select name="Marcas">
     	<option value="Apple">Apple</option>
@@ -26,9 +81,13 @@
       <option value="Huawei">Huawei</option>
     </select>
     <br>
+    
+    <!-- Mensaje / Comentario -->
     <div>Déjenos su mensaje:</div>
     <textarea name="mensaje" rows="10" cols="40"></textarea>
     <br>
+    
+    <!-- Boton de enviar -->
     <input type="submit" value="Enviar">
   </form>
 </body>
