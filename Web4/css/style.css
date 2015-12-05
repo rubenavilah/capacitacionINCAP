@@ -17,4 +17,50 @@
 body{
 	width: 80%;
 	}
+	
+.class1{
+	color: pink;
+}
+	
+#id_1{
+	color: red;
+}
 
+/* 
+CSS - Cascading Style Sheets
+Hojas en estilo de cascada
+
+*/
+
+header{
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	color: green;
+}
+header h1{
+	color: red;
+}
+header nav ul{
+	list-style-type: none;
+	}
+header nav ul li{
+	display: inline;
+	}
+	
+	/* LOVE AND HATE */
+header nav ul li a:link{
+	color: gray;
+	text-decoration: none;
+	background: #E1E1E1;
+}
+header nav ul li a:visited{
+	color: red;
+	background: orange;
+}
+header nav ul li a:hover{
+	background: red;
+	color: yellow;
+}
+header nav ul li a:active{
+	color: yellow;
+	background: red;
+}
