@@ -1,0 +1,109 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body{
+	font-family: 'Lobster', Helvetica, cursive;
+	}
+
+/* Opacidades en imagenes */
+.opacity{
+	opacity: 0.5;
+	background: yellow;
+	width: 300px;
+}
+.boxBorder{
+	background: purple;
+	border-radius: 50%;
+	box-shadow: -5px -10px 0 #888;
+	-webkit-box-shadow:  -5px -10px 0 #888;
+	-moz-box-shadow: 5px 0px 0 #888;
+	-o-box-shadow: 5px 0px 0 #888;
+	height: 200px;
+	width: 200px;
+}
+
+.shadowText{
+	color: #535353;
+	font-family: Helvetica, Arial, sans-sefif;
+	text-shadow: 0 1px 0 red;
+}
+
+.gradient{
+background: rgb(169,228,247); /* Old browsers */
+
+background: -moz-linear-gradient(left,  rgba(169,228,247,1) 0%, rgba(15,180,231,1) 100%); /* FF3.6-15 */
+
+background: -webkit-linear-gradient(left,  rgba(169,228,247,1) 0%,rgba(15,180,231,1) 100%); /* Chrome10-25,Safari5.1-6 */
+
+background: linear-gradient(to right,  rgba(169,228,247,1) 0%,rgba(15,180,231,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a9e4f7', endColorstr='#0fb4e7',GradientType=1 ); /* IE6-9 */
+
+height: 400px;
+width: 400px;
+	}
+.colors{
+	background: rgba(255,255,0,0.2);
+	height: 200px;
+	width: 200px;
+}
+.columnas{
+	column-count: 3;
+	-webkit-column-count: 3;
+	-moz-column-count: 3;
+	
+	column-gap: 30px;
+	-webkit-column-gap: 30px;
+	-moz-column-gap: 30px;
+	
+	column-rule-style: solid;
+	-webkit-column-rule-style: solid;
+	-moz-column-rule-style: solid;
+	
+	column-rule-width: 1px;
+	-webkit-column-rule-width: 1px;
+	-moz-column-rule-width: 1px;
+	
+	column-rule-color: gray;
+	-webkit-column-rule-color: gray;
+	-moz-column-rule-color: gray;
+	
+	width: 500px;
+	}
+.box{
+	height: 200px;
+	width: 200px;
+}
+.posicion{
+	background: red;
+	transform: translate(10px,-100px);
+}
+.posicion:hover{
+	transform: scale(2) rotate(20deg) skew(25deg, 10deg);
+}
+.transition{
+	background: url('../img/arbol.png');
+	transition: width 3s;
+	-webkit-transition: width 3s;
+	height: 400px;
+}
+.transition:hover{
+	width: 700px;
+}
+
+@keyframes animBox{
+	from{
+		background-color: red;
+		}
+	to{
+		background-color: lime;
+		}
+	}
+.animation{
+	background: red;
+	}
+.animation:hover{
+	background: red;
+	animation-name: animBox;
+	animation-duration: 4s;
+	}
