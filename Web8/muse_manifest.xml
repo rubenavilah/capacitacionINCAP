@@ -1,0 +1,51 @@
+<manifest alg="2" build="2015.0.2.310" opt="true" iceEnabled="true" iceMarkupVersion="2" exportTarget="other" domain="miweb.com" resolutions="1x" timestamp="1449787811678">
+  <folder name="css">
+    <file name="site_global.css" crc="493025057"/>
+    <file name="master_a-master.css" crc="324061957" ref="contactenos:portafolio:index:servicios"/>
+    <file name="contactenos.css" crc="4165834647" ref="contactenos"/>
+    <file name="portafolio.css" crc="3918869404" ref="portafolio"/>
+    <file name="index.css" crc="505657474" ref="index"/>
+    <file name="servicios.css" crc="3768687630" ref="servicios"/>
+  </folder>
+  <folder name="scripts">
+    <file name="jquery-1.8.3.min.js" crc="196614522" ref="index:portafolio:servicios:contactenos"/>
+    <file name="museutils.js" crc="275725342" ref="index:portafolio:servicios:contactenos"/>
+    <file name="jquery.musemenu.js" crc="4042164668" ref="index:portafolio:servicios:contactenos"/>
+    <file name="jquery.watch.js" crc="3999102769" ref="index:portafolio:servicios:contactenos"/>
+    <file name="html5shiv.js" crc="4241844378" ref="index:portafolio:servicios:contactenos"/>
+    <file name="webpro.js" crc="3883484123" ref="portafolio:servicios:contactenos"/>
+    <file name="musewpslideshow.js" crc="360574455" ref="portafolio:servicios"/>
+    <file name="jquery.museoverlay.js" crc="342093292" ref="portafolio:servicios"/>
+    <file name="touchswipe.js" crc="4218319045" ref="portafolio:servicios"/>
+    <file name="form_check.php" crc="3932029206" ref="contactenos"/>
+    <file name="form_throttle.php" crc="314685628" ref="contactenos"/>
+    <file name="form_process.php" crc="401030677" ref="contactenos"/>
+    <file name="form-u385.php" crc="4186185773" ref="contactenos"/>
+  </folder>
+  <folder name="images">
+    <file name="avatar.jpg" crc="4094747415" ref="index:portafolio:servicios:contactenos"/>
+    <file name="papersco-ac89-wallpaper-apple-iphone6-leaf-lotus-24-wallpaper.jpg" crc="26264878" seo="true" ref="index"/>
+    <file name="minimal-lighthouse-night-hd-wallpaper.jpg" crc="12599925" seo="true" ref="index:servicios"/>
+    <file name="design_is___by_goergen402x236.jpg" crc="3863626644" seo="true" ref="index"/>
+    <file name="14627112304_00646fce4f_o.jpg" crc="4256734899" seo="true" ref="portafolio"/>
+    <file name="blank.gif" crc="4208392903" ref="portafolio"/>
+    <file name="design_is___by_goergen.jpg" crc="3958434038" seo="true" ref="portafolio"/>
+    <file name="image_1.jpg" crc="198750347" seo="true" ref="portafolio"/>
+    <file name="papersco-ac89-wallpaper-apple-iphone6-leaf-lotus-24-wallpaper-crop-u296.jpg" crc="335279505" ref="portafolio"/>
+    <file name="14627112304_00646fce4f_o68x45.jpg" crc="4098735350" seo="true" ref="portafolio"/>
+    <file name="design_is___by_goergen72x45.jpg" crc="4272907659" seo="true" ref="portafolio"/>
+    <file name="image_172x45.jpg" crc="133956453" seo="true" ref="portafolio"/>
+    <file name="papersco-ac89-wallpaper-apple-iphone6-leaf-lotus-24-wallpaper-crop-u299.jpg" crc="4044237604" ref="portafolio"/>
+    <file name="loading.gif" crc="3815509949" ref="portafolio"/>
+    <file name="papersco-al55-apple-wwdc-art-logo-minimal-white-26-wallpaper.jpg" crc="3952924404" seo="true" ref="servicios"/>
+    <file name="finder_logo.png" crc="3924523395" seo="true" ref="servicios"/>
+    <file name="u391-17.png" crc="253863259" ref="contactenos"/>
+    <file name="u391-17-r.png" crc="358472422" ref="contactenos"/>
+    <file name="u391-17-m.png" crc="137359817" ref="contactenos"/>
+    <file name="u391-17-fs.png" crc="121621210" ref="contactenos"/>
+  </folder>
+  <file name="index.html" crc="4232602111" seo="true" mt="1449787652633" redirect="true"/>
+  <file name="portafolio.html" crc="223495657" seo="true" mt="1449783760971" redirect="true"/>
+  <file name="servicios.html" crc="37559607" seo="true" mt="1449783760971" redirect="true"/>
+  <file name="contactenos.html" crc="4238998015" seo="true" mt="1449784528175" redirect="true"/>
+</manifest>
